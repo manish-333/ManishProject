@@ -43,11 +43,11 @@ const Style = () => {
             <p className='psecond'>{item.time}</p>
             <p className='price'>{item.price}</p>
             <div className="size">
-              <button id="btn">XL</button>
-              <button id="btn">L</button>
-              <button id="btn">M</button>
-              <button id="btn">S</button>
-              <button id="btn">XS</button>
+            <div className="btn1">XL</div>
+<div className="btn1">L</div>
+<div className="btn1">M</div>
+<div className="btn1">S</div>
+<div className="btn1">XS</div>
             </div>
             <div className="circle">
               <div className="circlecolor"></div>
@@ -63,3 +63,5 @@ const Style = () => {
 }
 
 export default Style;
+
+

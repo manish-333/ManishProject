@@ -206,7 +206,7 @@ ul li a {
 }
 
 .size {
-    width: 80%;
+    width: 60%;
     height: 50px;
     margin: auto;
     /* background-color: gray; */
@@ -221,17 +221,23 @@ ul li a {
  #btn {
     width: 40px;
     height: 40px;
-    background-color: rgb(0, 255, 85);
+    /* background-color: rgb(0, 255, 85); */
     border: none;
-    font-size: 20px;
-    color: red;
+    font-size: 10px;
+    /* color: red; */
+    border-radius: 10px;
 
+}
+#btn:hover{
+    /* background-color: gray; */
 }
 
 
 
+
 .circle {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     height: 46px;
     /* background-color: yellow; */
     margin: auto;
@@ -243,8 +249,8 @@ ul li a {
 }
 
 .circlecolor {
-    width:40px ;
-    height: 40px;
+    width:30px ;
+    height: 30px;
     background-color: aqua;
     border-radius: 50%;
 
@@ -274,25 +280,49 @@ ul li a {
     padding: 20PX 0PX;
    
 }
-#btn{
+/* #btn{
   width: 70%;
   height: 14;
   /* background-color: green; */
-  font-size: 30px;
+  /* font-size: 30px;
   font-family: sans-serif;
   border: none;
   color: rgb(0, 0, 0);
-  background-color: white;
+  background-color: white; */
 
-}
+/* } */ 
 button{
-    background-color: red;
+   background-color: red;
     border: none;
+    font-size: 18px;
 }
 .Collection {
-    color: white;
+  
+  
+}
+button:hover{
+ 
 }
 
+#view{
+    background-color: transparent;
+    font-size: 40px;
+}
+.btn1{
+    /* background-color: green; */
+    width:30px;
+    height:30px;
+    display: flex;
+    justify-content: center;align-items: center;
+    font-size: 15px;
+    border-radius: 9px;
+    
+
+}
+.btn1:hover{
+background-color: lightgray;
+cursor: pointer;
+}
 
 
 

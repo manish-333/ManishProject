@@ -17,7 +17,7 @@ const Transparent = () => {
           </div>
           <div className='bottomcart'>
             <p  className='Collection'>Explore our exquisite Bag Collection now!</p>
-            <button id="btn">View Collection</button>
+            <button id="view">View Collection</button>
           </div>
         </div>
       </div>
