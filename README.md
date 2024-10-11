@@ -9,3 +9,4 @@ Currently, two official plugins are available:
 "# shoppigsite" 
 "# new-project" 
 "# new-project" 
+"# Manish-Project" 
