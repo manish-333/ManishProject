@@ -148,18 +148,18 @@ ul li a {
 .multipleCart {
     width: 370px;
 
-    height: 500px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: center;
-    /* background-color: red; */
+    background-color: red;
 
 }
 
-.multipleCart img {
+.multipleCart {
     width: 100%;
-    height: 100%;
+ 
 }
 
 .top {
@@ -170,6 +170,10 @@ ul li a {
 
 .bottom {
     text-align: center;
+}
+.top img{
+    width: 100%;
+    
 }
 
 .bottom .pfirst {
