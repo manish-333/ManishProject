@@ -10,3 +10,4 @@ Currently, two official plugins are available:
 "# new-project" 
 "# new-project" 
 "# Manish-Project" 
+"# ManishProject" 
