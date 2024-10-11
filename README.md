@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 "# new-project" 
 "# Manish-Project" 
 "# ManishProject" 
+"# ManishProject" 
