@@ -367,36 +367,30 @@ cursor: pointer;
     margin: auto;
     justify-content: space-evenly;
     gap: 4vh;
+    margin-top: 30px;
    
  
 }
 .bibasection{
     width:350px;
-    height: 400px;
-    background-color: rgb(199, 187, 187);
+    height: 500px;
+    background-color: rgb(255, 255, 255);
     cursor: pointer;
-   
+   line-height: 20px;
+  
 
 }
 
 .bibatop{
     width:100%;
-    height: 75%;
+    height: 80%;
+   
 }
 .bibatop img{
     width:100%;
     height:100%;
 }
-/* .bibabottom{
-    width:100%;
-    height: 25%;
-} */
-/* .bibabottom{
-   width:100%;
-   height:25% ; 
-   background-color: rgb(252, 252, 252);
-   padding: 15px 15px;
-} */
+
 #description{
     font-size: 12px;
 }
