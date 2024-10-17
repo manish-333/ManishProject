@@ -342,6 +342,7 @@ cursor: pointer;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
+   
 }
 .leftsite{
    width: 100%;
@@ -357,19 +358,27 @@ cursor: pointer;
   }
   
 .bibacart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width:91%;
-    height:500px;
+    height:auto;
     background-color: rgb(183, 106, 106);
     margin: auto;
-    display: flex;
+    justify-content: space-evenly;
+    gap: 4vh;
+   
  
 }
 .bibasection{
-    width:250px;
+    width:350px;
     height: 400px;
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(199, 187, 187);
     cursor: pointer;
+   
+
 }
+
 .bibatop{
     width:100%;
     height: 75%;
@@ -382,12 +391,12 @@ cursor: pointer;
     width:100%;
     height: 25%;
 } */
-.bibabottom{
+/* .bibabottom{
    width:100%;
    height:25% ; 
-   /* background-color: red; */
+   background-color: rgb(252, 252, 252);
    padding: 15px 15px;
-}
+} */
 #description{
     font-size: 12px;
 }
@@ -456,6 +465,9 @@ cursor: pointer;
       
         top: 100px;
         left: 15%;
+    }
+    .bibacart{
+       flex-direction: column;
     }
  
 }
