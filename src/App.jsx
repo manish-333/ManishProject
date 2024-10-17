@@ -10,6 +10,7 @@ import ShopnowSection from "./components/navbar/ShopnowSection";
 import Bibacart from "./components/navbar/Bibacart";
 import Block from "./components/navbar/Block";
 import BlockCart from "./components/navbar/BlockCart";
+import BlockMain from "./components/navbar/BlockMain";
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
         <ShopnowSection />
         <Bibacart />
         <Block />
-      <BlockCart/>
+        <BlockMain />
+      {/* <BlockCart/> */}
+     
       </div>
     </>
   );

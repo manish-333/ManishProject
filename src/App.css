@@ -398,7 +398,7 @@ cursor: pointer;
 .block{
     width:100%;
     height:100px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -408,9 +408,27 @@ cursor: pointer;
 }
 .blockcart{
     width:91%;
-    height:400px ;
-    background-color: blue;
+    height:auto ;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4vh;
+
 }
+.buster{
+    width:350px;
+    height: 350px;
+    background-color: gray;
+}
+.buster img{
+    width:100%;
+    height: 100%;
+    background-color: gray;
+}
+
 
 
 
@@ -477,6 +495,9 @@ cursor: pointer;
     }
     .bibacart{
        flex-direction: column;
+    }
+    .blockcart{
+        flex-direction: column;
     }
  
 }
