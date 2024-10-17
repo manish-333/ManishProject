@@ -323,10 +323,74 @@ button:hover{
 background-color: lightgray;
 cursor: pointer;
 }
+.brand{
+    width:100%;
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+
+.shopnowsection{
+    width:100%;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+}
+.leftsite{
+   width: 100%;
+    height:400px;
+}
 
 
 
-
+  .leftside img {
+    width: 100%; 
+    height: 100%;
+   object-fit: fill;
+  }
+  
+.bibacart{
+    width:91%;
+    height:500px;
+    background-color: rgb(183, 106, 106);
+    margin: auto;
+    display: flex;
+ 
+}
+.bibasection{
+    width:250px;
+    height: 400px;
+    background-color: rgb(254, 254, 254);
+    cursor: pointer;
+}
+.bibatop{
+    width:100%;
+    height: 75%;
+}
+.bibatop img{
+    width:100%;
+    height:100%;
+}
+/* .bibabottom{
+    width:100%;
+    height: 25%;
+} */
+.bibabottom{
+   width:100%;
+   height:25% ; 
+   /* background-color: red; */
+   padding: 15px 15px;
+}
+#description{
+    font-size: 12px;
+}
 
 
 
