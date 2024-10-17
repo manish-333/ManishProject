@@ -395,8 +395,22 @@ cursor: pointer;
 #description{
     font-size: 12px;
 }
-
-
+.block{
+    width:100%;
+    height:100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.blockcart{
+    width:91%;
+    height:400px ;
+    background-color: blue;
+}
 
 
 

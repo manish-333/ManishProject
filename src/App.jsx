@@ -8,6 +8,8 @@ import "./App.css";
 import Brand from "./components/navbar/Brand";
 import ShopnowSection from "./components/navbar/ShopnowSection";
 import Bibacart from "./components/navbar/Bibacart";
+import Block from "./components/navbar/Block";
+import BlockCart from "./components/navbar/BlockCart";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Brand />
         <ShopnowSection />
         <Bibacart />
+        <Block />
+      <BlockCart/>
       </div>
     </>
   );
