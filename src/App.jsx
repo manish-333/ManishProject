@@ -11,6 +11,8 @@ import Bibacart from "./components/navbar/Bibacart";
 import Block from "./components/navbar/Block";
 import BlockCart from "./components/navbar/BlockCart";
 import BlockMain from "./components/navbar/BlockMain";
+import Exchange from "./components/navbar/Exchange";
+
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
         <Block />
         <BlockMain />
       {/* <BlockCart/> */}
+      <Exchange />
      
       </div>
     </>
