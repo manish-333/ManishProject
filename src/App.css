@@ -429,21 +429,53 @@ cursor: pointer;
     background-color: gray;
 }
 
-.eseyExchange{
+/* .eseyExchange{
     width:100%;
-    height:400px;
+    height:auto;
     background-color: pink;
     display: flex;
-}
+} */
 .exchangesectiopn{
     width:200px;
-    height: 300px;
+    height: 200px;
     background-color: gray;
 
 }
 
+.eseyExchange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: red;
+    gap: 20px;
+  } 
+ 
+  
+  .card {
 
-
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon {
+    margin-bottom: 10px;
+  }
+  
+  .footer{
+    width:100%;
+    height:500px;
+    background-color: gray;
+  }
+.footarsection{
+    width:300px;
+    height:400px;
+    background-color: green;
+}
 
 
 
@@ -507,6 +539,9 @@ cursor: pointer;
        flex-direction: column;
     }
     .blockcart{
+        flex-direction: column;
+    }
+    .eseyExchange{
         flex-direction: column;
     }
  

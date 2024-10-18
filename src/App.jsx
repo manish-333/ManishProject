@@ -12,6 +12,7 @@ import Block from "./components/navbar/Block";
 import BlockCart from "./components/navbar/BlockCart";
 import BlockMain from "./components/navbar/BlockMain";
 import Exchange from "./components/navbar/Exchange";
+import Footer from "./components/navbar/Footer";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         <BlockMain />
       {/* <BlockCart/> */}
       <Exchange />
+      <Footer />
      
       </div>
     </>
