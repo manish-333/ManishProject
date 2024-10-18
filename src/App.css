@@ -428,56 +428,101 @@ cursor: pointer;
     height: 100%;
     background-color: gray;
 }
-
-/* .eseyExchange{
+ /* .eseyExchange{
     width:100%;
     height:auto;
     background-color: pink;
     display: flex;
-} */
-.exchangesectiopn{
+   
+    justify-content: center;
+    align-items: center;
+    gap: 4vh;
+}  */
+/* .exchangesectiopn{
     width:200px;
     height: 200px;
     background-color: gray;
+    gap: 4vh;
 
-}
+} */
 
-.eseyExchange {
+/* .eseyExchange {
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     padding: 20px;
     background-color: red;
-    gap: 20px;
+    gap: 4vh;
   } 
- 
+  */
+  .eseyExchange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color for the section */
+  }
+  
+  .exchangeSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four cards side-by-side for larger screens */
+    gap: 20px; /* Space between cards */
+  }
   
   .card {
-width:200px;
-height: 100px;
-    background-color: #f5f5f5;
-    /* padding: 20px; */
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
   }
   
   .icon {
     margin-bottom: 10px;
   }
   
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Media Queries for mobile devices (max-width: 900px) */
+  @media (max-width: 900px) {
+    .exchangeSection {
+      grid-template-columns: repeat(2, 1fr); /* Display 2 cards per row on medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .exchangeSection {
+      grid-template-columns: 1fr; /* Display 1 card per row on small screens */
+    }
+  }
+  
+
+
   .footer{
     width:100%;
     height:500px;
     background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
   }
-.footarsection{
-    width:300px;
+.footersection{
+    width:250px;
     height:400px;
-    background-color: green;
+    background-color: rgb(48, 182, 48);
+ 
 }
-
 
 
 
@@ -540,6 +585,9 @@ height: 100px;
        flex-direction: column;
     }
     .blockcart{
+        flex-direction: column;
+    }
+    .exchangeSection{
         flex-direction: column;
     }
     .eseyExchange{

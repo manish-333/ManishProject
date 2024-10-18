@@ -31,7 +31,7 @@ const data = [
 const Exchange = () => {
   return (
     <div className='eseyExchange'>
-  
+      <div className="exchangeSection">
         {data.map(item => (
           <div key={item.id} className="card">
             <div className="icon">
@@ -40,7 +40,7 @@ const Exchange = () => {
             <p>{item.text}</p>
           </div>
         ))}
-      
+      </div>
     </div>
   )
 }
